@@ -1,0 +1,5 @@
+services:
+  - type: worker
+    name: telegram-bot-worker
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
